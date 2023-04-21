@@ -3,7 +3,7 @@
  
 int string_length(char str[]); 
  
-int main() 
+void main() 
 { 
     FILE *fp1,*fp2; 
     int k=0,l=0,i=0,m,q; 
@@ -41,7 +41,7 @@ int main()
     fputs(temp,fp2); 
     fclose(fp1); 
     fclose(fp2); 
-    return 0; 
+   
 } 
  
 int string_length(char str[]) 
